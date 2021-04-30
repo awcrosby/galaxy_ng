@@ -125,7 +125,7 @@ flake8==3.9.0
     # via galaxy-importer
 future==0.18.2
     # via pyjwkest
-galaxy-importer==0.3.1
+git+https://github.com/awcrosby/galaxy-importer.git@enhancement/wait_to_delete_job
     # via
     #   galaxy-ng (setup.py)
     #   pulp-ansible
